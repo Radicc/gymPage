@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="GymJS.js"></script>
+    <link rel="stylesheet" href="GymCSS.css"/>
+</head>
+<body class="body">
+    <header>
+            <div class="navMenuDiv">
+                <a href="#home"><img class="cinkaMenuIMG" src="pictures/cinkaPNG.png"/></a>
+                <ul class="textMenuUl">
+                    <li><a href="#Operations">Operations</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Prices">Prices</a></li>
+                    <li><a href="#Application">Application</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#About">About us</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <main id>
+        <div class="sloganDiv" id="home">
+            <img class="heroBlackLinearPNG" src="pictures/heroBlackLinearPNG6.png"/>
+            <img class="prespektiveGym" src="pictures/heroGymJPEG.jpg"/>
+            <section class="sloganText">
+                <h1>THE BIGGEST</h1>
+                <h1>FITNESS CENTERS NETWORK</h1>
+                <button type="button" class="heroButton">Change now!</button>
+            </section>
+        </div>
+        
+        <div class="pricesSection" id="Prices">
+            <div class="pricesContainer">
+                <div class="leftPanel">
+                    <h3 class="monthlyPernamentsText" onclick="unHidePernamentSection()">MONTHLY PERNAMENTS</h3>
+                    <div id="monthlyPernamentsId" class="monthlyPernaments"></div>
+                    <h3 class="dailyEntryText" onclick="unHideOneTimeEntrySection()">DAILY ENTRY</h3>
+                    <div id="dailyEntryId" class="dailyEntry"></div>
+                </div>
+                <div class="ourPernamentClass" id="ourPernamentFunction">
+                    <h1 class="ourPernamentText">OUR PERNAMENT</h1>
+                </div>
+                <div class="oneTimeEntryClass" id="oneTimeEntryFunction">
+                    <h1 class="oneTimeEntryText">ONE TIME ENTRY</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="Application" id="Application">
+            <img class="gymInsideJPEG"src="pictures/gymInsideJPEG.jpg"/>
+            <img class="applicationPNG"src="pictures/applicationPNG4.png"/>
+            <div class="blackMirror"></div>
+            <section>
+                <img class="androidPicturePNG" src="pictures/androidPNG.png"/>
+                <img class="iosPicturePNG" src="pictures/iosPNG.png"/>
+                <img class="textApplicationPNG" src="pictures/textApplicationPNG.png"/>
+                <button type="button" class="googleButton">DOWNLOAD NOW</button>
+                <button type="button" class="appleButton">DOWNLOAD NOW</button>
+            </section>
+        </div>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="GymJS.js"></script>
+</body>
+</html>
